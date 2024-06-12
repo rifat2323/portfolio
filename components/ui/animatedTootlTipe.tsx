@@ -13,7 +13,7 @@ export const AnimatedTooltip = ({
     id,name,designation,image
 }: {
  
-    id?: number ;
+    id: number ;
     name?: string | "hello";
     designation?: string | "don't know";
     image: string;
@@ -82,7 +82,7 @@ export const AnimatedTooltip = ({
             height={50}
             width={50}
             src={image}
-            alt={name }
+           alt="hello"
             className="object-cover !m-0 !p-0 object-top rounded-full h-12 w-12 border-2 group-hover:scale-105 group-hover:z-30 border-stone-200 relative transition duration-500"
           />
         </div>
